@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    font-size: 60px;
+    text-align: center;
+    background-color: gainsboro;
+  }
+  button {
+    font: 50px sans-serif;
+    margin: 30px auto;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+  }
+  button:hover {
+    opacity: 0.5;
+  }
+  
+  #kiso {
+    background-color: #fffacd;
+    margin-top: 100px;
+  }
+  #dewa {
+    background-color: #90ee90;
+  }
+  #hiraniwa {
+    background-color: #4169e1;
+  }
+  footer {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+  }
+  @media screen and (max-width: 480px) {
+    header {
+      font-size: 50px;
+    }
+    button {
+      font: 30px sans-serif;
+      margin: 30px auto;
+      width: 40%;
+      text-align: center;
+    }
+  }
+  

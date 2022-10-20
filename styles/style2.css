@@ -1,0 +1,36 @@
+header {
+    font-size: 60px;
+    text-align: center;
+    background-color: gainsboro;
+  }
+  
+  #A {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  iframe {
+    margin: 40px auto;
+  }
+  
+  #B {
+    display: flex;
+    flex-direction: row;
+  }
+  button {
+    margin: 30px 30px;
+    width: 500px;
+    height: 100px;
+    font-size: 60px;
+    background-color: #cd5c5c;
+  }
+  button:hover {
+    opacity: 0.5;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+  }
+  
