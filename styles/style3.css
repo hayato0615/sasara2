@@ -1,0 +1,15 @@
+header{
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  iframe {
+    margin: 40px 40px;
+  }
+  p{
+    text-align: center;
+  }
