@@ -7,9 +7,10 @@ main {
     flex-direction: row;
   }
 
-  iframe {
+  iframe,img {
     margin: 40px 40px;
   }
+  
   p{
     text-align: center;
   }
