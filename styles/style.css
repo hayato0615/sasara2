@@ -1,11 +1,23 @@
+*{
+  margin:0;
+  padding:0;
+  }
+
 main {
     display: flex;
     flex-direction: column;
+    
+   
   }
   header {
+    
     font-size: 60px;
     text-align: center;
-    background-color: gainsboro;
+   
+    border-top: 3px solid black;/* 上の線 */
+    border-bottom: 3px solid black;/* 上の線 */
+    margin-top: 0px;
+    
   }
   button {
     font: 50px sans-serif;
@@ -19,7 +31,7 @@ main {
   }
   
   #kiso {
-    background-color: #fffacd;
+    background-color: #fffef8;
     margin-top: 100px;
   }
   #dewa {
@@ -43,5 +55,9 @@ main {
       width: 40%;
       text-align: center;
     }
+  }
+  #A{
+   margin-top: 20px;
+   font-size: 19px;
   }
   
