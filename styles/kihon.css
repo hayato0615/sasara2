@@ -1,0 +1,10 @@
+body{
+    background-image: url(../img/kisoS2.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    
+    
+}
