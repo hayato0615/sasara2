@@ -3,15 +3,15 @@
   padding:0;
   }
 
-main {
-    display: flex;
-    flex-direction: column;
+.main {
+  display: flex;
+  justify-content: space-evenly;
     
    
   }
   header {
     
-    font-size: 60px;
+    font-size: 75px;
     text-align: center;
    
     border-top: 3px solid red;/* 上の線 */
@@ -20,6 +20,9 @@ main {
     
   }
   button{
+
+  margin-top: 100px;
+  margin-bottom:100px;
   display: inline-block;
   position: relative;
   text-decoration: none;
@@ -34,7 +37,7 @@ main {
   background: linear-gradient(#fed6e3 0%, #ffaaaa 100%);
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
-  margin: 30px auto;
+  
   font-size:30px;
   }
   
@@ -48,19 +51,17 @@ main {
   button:hover {
     opacity: 0.5;
   }
-  #kiso {
-    background-color: #fffef8;
-    margin-top: 100px;
-  }
-  #dewa {
-    background-color: #90ee90;
-  }
-  #hiraniwa {
-    background-color: #4169e1;
-  }
+  
+  #A{
+    
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+   }
+
   footer {
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     margin-top: 60px;
     border:double;
   }
@@ -75,10 +76,5 @@ main {
       text-align: center;
     }
   }
-  #A{
-    
-   margin-top: 20px;
-   font-size: 25px;
-   font-weight: bold;
-  }
+ 
   

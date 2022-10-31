@@ -1,36 +1,69 @@
-header {
-    font-size: 60px;
-    text-align: center;
-    background-color: gainsboro;
-  }
+*{
+    margin:0;
+    padding:0;
+    }
   
-  #A {
+  .main {
     display: flex;
-    flex-direction: row;
-  }
+    justify-content: space-evenly;
+      
+     
+    }
+    header {
+      
+      font-size: 75px;
+      text-align: center;
+     
+      border-top: 3px solid red;/* 上の線 */
+      border-bottom: 3px solid red;/* 上の線 */
+      margin-top: 0px;
+      
+    }
+    button{
   
-  iframe {
-    margin: 40px auto;
-  }
-  
-  #B {
-    display: flex;
-    flex-direction: row;
-  }
-  button {
-    margin: 30px 30px;
-    width: 500px;
+    margin-top: 100px;
+    margin-bottom:100px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    width: 200px;
     height: 100px;
-    font-size: 60px;
-    background-color: #cd5c5c;
-  }
-  button:hover {
-    opacity: 0.5;
-  }
-  
-  footer {
+    line-height: 50px;
+    border-radius: 5px;
     text-align: center;
-    font-size: 40px;
-    margin-top: 40px;
-  }
+    overflow: hidden;
+    font-weight: bold;
+    background: linear-gradient(#fed6e3 0%, #ffaaaa 100%);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+    
+    font-size:30px;
+    }
+    
+    button:active {
+      /*押したとき*/
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);/*沈むように*/
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+      background-image: linear-gradient(#fed6e3 0%, #ffbcbc 100%);/*グラデーションを明るく*/
+    }
+    button:hover {
+      opacity: 0.5;
+    }
+    
+    #A{
+      
+      margin-top: 20px;
+      font-size: 25px;
+      font-weight: bold;
+     }
   
+    
+
+    footer {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 40px;
+      }
+
