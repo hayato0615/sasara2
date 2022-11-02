@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    }
+
+header {
+      
+    font-size: 75px;
+    text-align: center;
+   
+    border-top: 3px solid red;/* 上の線 */
+    border-bottom: 3px solid red;/* 上の線 */
+    margin-top: 0px;
+    
+  }
+
+  #A {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+      
+     
+    }
+    #P{
+      
+        margin-top: 20px;
+        font-size: 25px;
+        font-weight: bold;
+       }
+
+       button{
+  
+        margin-top: 100px;
+        margin-bottom:100px;
+        display: inline-block;
+        position: relative;
+        text-decoration: none;
+        color: black;
+        width: 200px;
+        height: 100px;
+        line-height: 50px;
+        border-radius: 5px;
+        text-align: center;
+        overflow: hidden;
+        font-weight: bold;
+        background: linear-gradient(#fed6e3 0%, #ffaaaa 100%);
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+        
+        font-size:30px;
+        }
+        
+        button:active {
+          /*押したとき*/
+          -webkit-transform: translateY(2px);
+          transform: translateY(2px);/*沈むように*/
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+          background-image: linear-gradient(#fed6e3 0%, #ffbcbc 100%);/*グラデーションを明るく*/
+        }
+        button:hover {
+          opacity: 0.5;
+        }
+        

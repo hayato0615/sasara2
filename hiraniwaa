@@ -18,21 +18,14 @@
         
         <div id="A">
             <p id="p1">良い例</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/kvQyi-ze_ZQ"
-            title="YouTube video player" frameborder="0" 
-           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-
+           
 
 
 
         </div>
         <div id="B">
             <p id="p2">悪い例</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/c8EL3L68KtI" 
-            title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-             allowfullscreen></iframe>
+         
 
         </div>
     
@@ -40,8 +33,7 @@
     </main>
     <div id="C">
     <p id="p3">注目ポイント</p>
-   <p id="p4">足ぶみをしている点に注目しましょう。足ぶみをしないでたいこをたたいている人が多いです。最後の<br>バチの持ち方ついては
-    <a href="../dewa/dewa5.html">「出羽5」</a>で解説しています</p> 
+   <p id="p4"></p> 
 </div>
 
     <footer id="foo">
@@ -51,7 +43,4 @@
     </footer>
 </body>
 </html>
-
-
-
 
