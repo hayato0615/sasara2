@@ -138,3 +138,7 @@
     button:hover {
       opacity: 0.5;
     }
+    .breadcrumb li {
+      list-style-type: none;
+      display: inline;
+    }

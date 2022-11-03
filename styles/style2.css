@@ -67,3 +67,8 @@
         margin-top: 40px;
       }
 
+    
+    .breadcrumb li {
+      list-style-type: none;
+      display: inline;
+    }
