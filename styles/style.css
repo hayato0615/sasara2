@@ -90,7 +90,7 @@
       button{
     
       margin-top: 20px;
-      margin-bottom:20px;
+      margin-bottom:15px;
       display: inline-block;
       position: relative;
       text-decoration: none;
@@ -127,13 +127,15 @@
         margin-top: 20px;
         font-size: 18px;
         
+        
        }
     
       footer {
         text-align: center;
-        font-size: 50px;
-        margin-top: 60px;
-        border:double;
+        font-size: 20px;
+        margin-top: 5px;
+        border:solid;
+        border-width: 4px;
       }
   }
  
