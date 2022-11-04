@@ -180,7 +180,7 @@
           font-weight: bold;
           color: white;
           background-color: red;
-          width: 560px;
+          width: 100%;
           margin-right: auto;
         margin-left: auto;
         font-size: 25px;
@@ -192,7 +192,7 @@
           font-weight: bold;
           color: white;
           background-color: blue;
-          width: 560px;
+          width: 100%;
           margin-right: auto;
         margin-left: auto;
         font-size: 25px;
@@ -215,13 +215,14 @@
         font-size:40px;
        }
        #p4{
+        text-align: left;
         font-size:30px;
        }
        img{
-        width: 480px;
+        width: 100%;
        }
        .y{
-        width: 480px;
+        width: 100%;
         font-size: 30px;
        }
        #kkp1{
@@ -230,7 +231,7 @@
         text-align: center;
        }
        #kki{
-        width: 480px;
+        width: 100%;
         margin-right: auto;
         margin-left: auto;
         
